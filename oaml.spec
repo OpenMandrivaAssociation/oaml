@@ -4,7 +4,7 @@
 
 Name:           oaml
 Version:        1.2
-Release:        %mkrel 4
+Release:        1
 Summary:        Open Adaptive Music Library
 Group:          System/Libraries
 License:        MIT
@@ -59,7 +59,7 @@ the Open Adaptive Music Library.
 %cmake \
   -DENABLE_STATIC=OFF \
   -DENABLE_UNITYPLUGIN=OFF
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install -C Build
