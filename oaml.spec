@@ -3,7 +3,7 @@
 %define	devname %mklibname %{name} -d
 
 Name:           oaml
-Version:        1.2
+Version:        1.3.4
 Release:        1
 Summary:        Open Adaptive Music Library
 Group:          System/Libraries
