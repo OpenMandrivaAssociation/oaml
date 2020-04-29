@@ -62,4 +62,4 @@ the Open Adaptive Music Library.
 %make_build
 
 %install
-%make_install -C Build
+%make_install -C build
