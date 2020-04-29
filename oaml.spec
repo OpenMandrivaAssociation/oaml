@@ -11,6 +11,7 @@ License:        MIT
 URL:            https://oamldev.github.io
 Source0:        https://github.com/oamldev/oaml/archive/v%{version}/%{name}-%{version}.tar.gz
 #Patch0:         oaml-1.2-git-shared-library-name.patch
+Patch0:         0001-Don-t-hardcode-lib.patch
 
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(alsa)
