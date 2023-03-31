@@ -4,7 +4,7 @@
 
 Name:           oaml
 Version:        1.3.4
-Release:        1
+Release:        2
 Summary:        Open Adaptive Music Library
 Group:          System/Libraries
 License:        MIT
